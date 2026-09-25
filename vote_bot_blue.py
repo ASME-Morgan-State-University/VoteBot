@@ -274,7 +274,7 @@ async def ws_robot(ws: WebSocket):
 
 @app.get("/")
 async def index():
-    with open("page.html", "r", encoding="utf-8") as f:
+    with open("pageblue.html", "r", encoding="utf-8") as f:
         return HTMLResponse(f.read())
 
 # =========================
@@ -283,7 +283,7 @@ async def index():
 
 if __name__ == "__main__":
     uvicorn.run(
-        "vote_bot:app",
+        "vote_bot_blue:app",
         host="0.0.0.0",
         port=int(os.getenv("VOTEBOT_PORT", "4000")),
         log_level="info",
