@@ -6,7 +6,7 @@
 // -------------------- WIFI / WS CONFIG --------------------
 const char* WIFI_SSID = "VOTE_BOT_ORANGE";
 const char* WIFI_PASSWORD = "VOTEBOT-0";
-const char* WS_HOST = "192.168.0.149";
+const char* WS_HOST = "192.168.0.38";
 const uint16_t WS_PORT = 5000;
 const char* WS_PATH = "/ws/robot";
 
